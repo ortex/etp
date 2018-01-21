@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.metadave</groupId>
+    <groupId>com.github.ortex</groupId>
     <artifactId>etp</artifactId>
     <packaging>jar</packaging>
-    <version>0.7</version>
+    <version>0.8</version>
     <name>ETP</name>
     <description>An Erlang term parser for Java</description>
-    <url>https://github.com/metadave/etp</url>
+    <url>https://github.com/ortex/etp</url>
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
@@ -20,14 +20,18 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:ssh://git@github.com/metadave/etp.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/metadave/etp.git</developerConnection>
-        <url>http://github.com/metadave/etp</url>
+        <connection>scm:git:ssh://git@github.com/ortex/etp.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/ortex/etp.git</developerConnection>
+        <url>http://github.com/ortex/etp</url>
     </scm>
     <developers>
         <developer>
             <name>Dave Parfitt</name>
             <email>diparfitt@gmail.com</email>
+        </developer>
+        <developer>
+            <name>Andrey Bushmin</name>
+            <email>andreworty@gmail.com</email>
         </developer>
     </developers>
 
