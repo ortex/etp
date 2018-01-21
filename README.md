@@ -16,7 +16,7 @@ Also, ETP is available via the [Sonatype OSS repository](https://oss.sonatype.or
 <dependency>
   <groupId>com.github.ortex</groupId>
   <artifactId>etp</artifactId>
-  <version>0.8</version>
+  <version>0.8-SNAPSHOT</version>
 </dependency>
 ```
 
