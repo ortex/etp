@@ -10,13 +10,13 @@ You'll need Maven to build etp.
 
 	mvn package
 
-Also, ETP is available via the [Sonatype OSS repository](https://oss.sonatype.org/index.html#nexus-search;quick~metadave):
+Also, ETP is available via the [Sonatype OSS repository](https://oss.sonatype.org/index.html#nexus-search;quick~ortex):
 
 ```
 <dependency>
-  <groupId>com.github.metadave</groupId>
+  <groupId>com.github.ortex</groupId>
   <artifactId>etp</artifactId>
-  <version>0.6-SNAPSHOT</version>
+  <version>0.8</version>
 </dependency>
 ```
 
@@ -55,7 +55,7 @@ ETP doesn't prevent you setting invalid values on an ETPTerm object. Validation 
 
 ### Grammar
 
-Antlr 4 grammar [here](https://github.com/metadave/etp/blob/master/src/main/java/com/metadave/etp/ETP.g4)
+Antlr 4 grammar [here](https://github.com/ortex/etp/blob/master/src/main/java/com/ortex/etp/ETP.g4)
 
 
 ### Example
